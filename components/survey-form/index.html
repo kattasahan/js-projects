@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="../../imgs/myLogo.svg" />
+    <link rel="stylesheet" href="./index.css" />
+    <title id="title">Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">
+      Thank you for taking the time to help us improve the platform
+    </p>
+    <form id="survey-form">
+      <fieldset>
+        <label for="name" id="name-label"
+          >Name
+          <input id="name" type="text" placeholder="Enter your name" required
+        /></label>
+        <label for="email" id="email-label" ,
+          >Email<input
+            id="email"
+            type="email"
+            placeholder="Enter your Email"
+            required
+        /></label>
+        <label for="age" id="number-label"
+          >Age (optional)
+          <input
+            type="number"
+            id="number"
+            min="13"
+            max="120"
+            placeholder="Age"
+          />
+        </label>
+        <label for="dropdown">
+          Which option best describes your current role?
+          <select id="dropdown">
+            <option>Student</option>
+            <option>Full Time Job</option>
+            <option>Freelance</option>
+            <option>Bekar</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        Would you recommend freeCodeCamp to a friend?
+        <label for="r1" class="r"
+          ><input
+            type="radio"
+            class="inline"
+            name="radioGroup"
+            value="Definitely"
+          />Definitely</label
+        >
+        <label for="r2" class="r"
+          ><input
+            type="radio"
+            class="inline"
+            name="radioGroup"
+            value="Maybe"
+          />Maybe</label
+        >
+        <label for="r3" class="r"
+          ><input
+            type="radio"
+            name="radioGroup"
+            class="inline"
+            value="Not sure"
+          />Not sure</label
+        >
+      </fieldset>
+      <fieldset>
+        <label class="r"
+          ><input type="checkbox" class="inline" value="check1" />Check1</label
+        >
+        <label class="r"
+          ><input type="checkbox" class="inline" value="check2" />Check2</label
+        >
+      </fieldset>
+      <fieldset>
+        <label>TextArea<textarea rows="5" cols="30"></textarea></label>
+      </fieldset>
+      <input type="submit" id="submit" />
+    </form>
+  </body>
+</html>

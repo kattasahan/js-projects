@@ -1,0 +1,107 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+h1,
+p {
+  margin: 1em auto;
+  text-align: center;
+}
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+fieldset:last-of-type {
+  border-bottom: none;
+}
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+input,
+textarea,
+select {
+  background-color: black;
+  border: 1px solid white;
+  color: #ffffff;
+  padding: 7px;
+}
+input[type="text"]:hover,
+input[type="number"]:hover,
+input[type="email"]:hover,
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+select:hover,
+select:focus,
+textarea:hover,
+textarea:focus,
+.r:hover,
+.r:focus,
+.r:active {
+  background-color: #ffffff;
+  color: Black;
+  box-shadow: 3px 3px 0 0 black, 6px 6px 0 0 white;
+  transform: translate(-2px, -2px);
+}
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+input[type="submit"] {
+  width: unset;
+  display: block;
+  cursor: pointer;
+  padding: 8px 60px;
+  border: 2px solid white;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  box-shadow: 2px 2px 0 0 black, 4px 4px 0 0 white;
+  transition: 200ms;
+}
+
+#submit:hover {
+  box-shadow: 3px 3px 0 0 black, 6px 6px 0 0 white;
+  transform: translate(-2px, -2px);
+  background-color: #ffffff;
+  color: Black;
+}
+
+input[type="file"] {
+  padding: 1px 2px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: black;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #555;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: white;
+}

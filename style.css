@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+body {
+  margin: 0 auto;
+  padding: 0px;
+  background-color: black;
+  color: white;
+  max-width: 1300px;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+.flex {
+  display: flex;
+}
+.grid {
+  display: grid;
+}
+.h-center {
+  justify-content: center;
+}
+.v-center {
+  align-items: center;
+}
+#project-container {
+  max-width: 1250px;
+  padding: 2.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 2rem;
+}
+.project-card {
+  min-width: 250px;
+  height: 300px;
+  max-width: 400px;
+  border: 1px solid white;
+  flex-direction: column;
+}
+.project-card > div {
+  height: 20%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+a.project-card {
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+  color: black;
+  font-size: 1.2rem;
+
+  display: block;
+  box-shadow: 2px 2px 0 0 black, 4px 4px 0 0 white;
+  transition: 200ms;
+  background: black;
+  border: 1px solid white;
+}
+.project-img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  background-color: #6966FF;
+  border-bottom: 0.5px solid white;
+}
+nav {
+  height: 40px;
+  padding: 5px 20px;
+  justify-content: space-between;
+  text-align: center;
+}
+h1,
+p {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+h1 {
+  font-size: xx-large;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+a.project-card.flex:hover {
+  color: white;
+
+  box-shadow: 3px 3px 0 0 black, 6px 6px 0 0 white;
+  transform: translate(-2px, -2px);
+}

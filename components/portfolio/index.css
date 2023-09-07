@@ -1,0 +1,144 @@
+/*     :root {
+      --background: white;
+      --font: black;
+      --mid: #ddd;
+    } */
+
+:root {
+  --background: black;
+  --font: white;
+  --mid: hsla(360, 100%, 100%, 0.2);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  max-width: 1000px;
+  margin: 0 auto;
+  scroll-behavior: smooth;
+  background: var(--background);
+  color: var(--font);
+}
+navbar {
+  display: flex;
+  justify-content: space-between;
+  min-height: 60px;
+  align-items: center;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  max-width: 1000px;
+  background: var(--background);
+}
+navbar ol {
+  display: flex;
+  list-style: none;
+}
+navbar ol li {
+  margin: 0px 10px;
+  min-height: 20px;
+}
+navbar a,
+.grid a {
+  text-decoration: none;
+  color: var(--font);
+}
+navbar ol li:hover {
+  border-bottom: 2px solid var(--font);
+}
+#welcome-section,
+#Contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+#projects {
+  padding: 85px 20px 20px;
+  background: var(--background);
+}
+.projects-title {
+  margin: 0px auto 30px;
+  width: fit-content;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-gap: 2rem;
+  margin: 0 auto;
+  width: 100%;
+}
+#profile-link {
+  display: block;
+  box-shadow: 2px 2px 0 0 var(--background), 4px 4px 0 0 var(--font);
+  transition: 200ms;
+  background: var(--background);
+  border: 1px solid var(--font);
+}
+#profile-link:hover {
+  box-shadow: 3px 3px 0 0 var(--background), 6px 6px 0 0 var(--font);
+  transform: translate(-2px, -2px);
+  background-color: var(--font);
+  color: var(--background);
+}
+.project-tile {
+  text-align: center;
+}
+.project-image {
+  object-fit: cover;
+  width: 100%;
+}
+.project_title {
+  font-size: 1rem;
+  padding: 1rem 0.5rem;
+}
+footer {
+  display: flex;
+  justify-content: flex-end;
+  background: var(--mid);
+}
+.code {
+  color: var(--background);
+  transition: color 0.5s ease-out;
+}
+.flex{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--mid);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--font);
+}
+
+@media (max-width: 330px) {
+  navbar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    gap: 10px;
+  }
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+}
