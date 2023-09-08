@@ -19,7 +19,6 @@ body {
   font-family: "Poppins", sans-serif;
   max-width: 1000px;
   margin: 0 auto;
-  scroll-behavior: smooth;
   background: var(--background);
   color: var(--font);
 }
@@ -42,6 +41,7 @@ navbar ol {
 navbar ol li {
   margin: 0px 10px;
   min-height: 20px;
+  scroll-behavior: smooth;
 }
 navbar a,
 .grid a {
