@@ -1,5 +1,5 @@
 <h1 align="center">JS Projects</h1>
-<h3>Projects that are made while learning JavaScript</h3>
+<h3 align="center">Projects that are made while learning JavaScript</h3>
 
 #### => <a href="https://kattasahan.github.io/js-projects/">Projects Page</a>
     
