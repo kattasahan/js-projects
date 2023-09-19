@@ -1,7 +1,7 @@
 <h1 align="center">JS Projects</h1>
-<h3>Projects related to Free Code Camp's Responsive Web Design Certification.</h3>
+<h3>Projects that are made while learning JavaScript</h3>
 
-#### > <a href="https://kattasahan.github.io/js-projects/">Projects</a>
+#### => <a href="https://kattasahan.github.io/js-projects/">Projects Page</a>
     
 ## List
 <ol>
