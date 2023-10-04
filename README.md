@@ -10,6 +10,7 @@
     <li><a href="https://kattasahan.github.io/js-projects/components/technical-documentation-page/" >Technical Documentation Page</a></li>
     <li><a href="https://kattasahan.github.io/js-projects/components/product-landing-page/" >Product Landing Page</a></li>
     <li><a href="https://kattasahan.github.io/js-projects/components/portfolio/" >Personal Portfolio Webpage</a></li>
+    <li><a href="https://kattasahan.github.io/js-projects/components/random-quote-generator/" >Random Quote Generator</a></li>
 </ol>
 
 ## Tech Stack
