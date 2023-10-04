@@ -29,4 +29,10 @@ export const list = [
     href: "/js-projects/components/survey-form/",
     imgSrc: "/js-projects/imgs/survey-form.svg",
   },
+  {
+    name: "Random Quote Generator",
+    tag: "random-quote-generator",
+    href: "/js-projects/components/random-quote-generator/",
+    imgSrc: "/js-projects/imgs/random-quote-generator.svg",
+  },
 ];
